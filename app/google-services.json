@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "25133490487",
+    "firebase_url": "https://tripzoadmin.firebaseio.com",
+    "project_id": "tripzoadmin",
+    "storage_bucket": "tripzoadmin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25133490487:android:273f2f3f795678b1",
+        "android_client_info": {
+          "package_name": "com.example.tripzoadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25133490487-khqiimtk7qdgl3j41fropr591a493bt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripzoadmin",
+            "certificate_hash": "f873ca17749b1662446adf49fdedac4e76a3511a"
+          }
+        },
+        {
+          "client_id": "25133490487-pve0ogs5jgr54ip0qt0upm6s517t8fum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj-GW_4hgOEqsApD-iiSJuw2iRvTehWDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25133490487-pve0ogs5jgr54ip0qt0upm6s517t8fum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

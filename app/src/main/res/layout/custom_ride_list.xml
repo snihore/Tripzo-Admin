@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ride"
+        android:textSize="20sp"
+        android:fontFamily="@font/calibriz"
+        android:gravity="center"
+        android:elevation="3dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tag"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/color1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/tag">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="30sp"
+            android:fontFamily="@font/calibrib"
+            android:textColor="@android:color/white"
+            android:background="@drawable/background5"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:elevation="3dp"
+            android:id="@+id/ride_pickup_alphabet"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:scaleType="fitXY"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_trending_flat_black_24dp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="30sp"
+            android:fontFamily="@font/calibrib"
+            android:textColor="@android:color/white"
+            android:background="@drawable/background4"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:elevation="3dp"
+            android:id="@+id/ride_drop_alpha"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

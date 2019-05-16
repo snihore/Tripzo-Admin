@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLoginActivity"
+    android:background="@color/color0">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="@font/calibrib"
+        android:textColor="@android:color/white"
+        android:background="@drawable/background0"
+        android:text="Admin"
+        android:padding="15dp"
+        android:gravity="center"
+        android:elevation="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background1"
+        android:elevation="5dp"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:focusable="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email"
+                android:textColorHint="@color/color1"
+                android:textColor="@color/color1"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/calibrib"
+                android:id="@+id/login_email"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:textColorHint="@color/color1"
+                android:textColor="@color/color1"
+                android:inputType="textPassword"
+                android:fontFamily="@font/calibrib"
+                android:id="@+id/login_pwd"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@color/color1"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/calibrib"
+            android:onClick="login"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not Registered ? "
+                android:fontFamily="@font/calibrii"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click here "
+                android:fontFamily="@font/calibriz"
+                android:textColor="@color/color1"
+                android:onClick="gotoRegister"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:fontFamily="@font/calibri"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/login_status"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
