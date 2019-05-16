@@ -8,30 +8,6 @@
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"
-        android:id="@+id/show_admin_img"/>
 
-    <TextView
-        android:id="@+id/show_admin_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="Admin Name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@android:color/white"
-        android:fontFamily="@font/calibrib"
-        android:textSize="20sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Admin Email"
-        android:textColor="@android:color/white"
-        android:fontFamily="@font/calibriz"
-        android:textSize="18sp"
-        android:id="@+id/show_admin_email"/>
 
 </LinearLayout>
